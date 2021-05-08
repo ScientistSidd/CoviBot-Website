@@ -3987,6 +3987,12 @@ input[type=button].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+
+#logo-image
+{
+  block-size: 10rem;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -10248,13 +10254,15 @@ section.download h2 {
 }
 section.download .badges .badge-link {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  margin-top: 25px;
 }
 section.download .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 section.download .badges .badge-link img {
-  height: 60px;
+  height: 70px;
+  border-radius: 200rem;
 }
 @media (min-width: 768px) {
   section.download .badges .badge-link {
